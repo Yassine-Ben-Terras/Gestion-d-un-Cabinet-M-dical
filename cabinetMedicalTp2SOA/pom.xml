@@ -45,6 +45,7 @@
         <module>patient-service-api</module>
         <module>medecin-service-api</module>
         <module>rendezvous-service-api</module>
+        <module>consultations-service-api</module>
     </modules>
 
 </project>
