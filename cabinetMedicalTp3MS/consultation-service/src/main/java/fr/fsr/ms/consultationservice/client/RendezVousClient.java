@@ -12,10 +12,10 @@ public class RendezVousClient {
     @Value("${api.gateway.url}")
     private String rendezVousServiceUrl ;
 
-    public void checkRendezVousIfExist(Long id){
+    public void checkRendezVousIfExist(Long rendezVousiId){
         try{
             restTemplate.getForObject(
-                    rendezVousServiceUrl+ "/api/rendezvous/" + id,
+                    rendezVousServiceUrl+ "/api/rendezvous/" + rendezVousiId,
                     Object.class
             );
         }catch (Exception e){
