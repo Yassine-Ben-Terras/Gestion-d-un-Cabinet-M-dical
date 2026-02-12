@@ -15,7 +15,7 @@ public class RendezVousClient {
     public void checkRendezVousIfExist(Long id){
         try{
             restTemplate.getForObject(
-                    rendezVousServiceUrl+ "/api/RendezVous/" + id,
+                    rendezVousServiceUrl+ "/api/rendezvous/" + id,
                     Object.class
             );
         }catch (Exception e){
