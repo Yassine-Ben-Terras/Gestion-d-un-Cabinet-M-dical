@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ConsultationDto {
-     LocalDate dateConsultation ;
+    LocalDate dateConsultation ;
     String rapport ;
     Long rendezVousId ;
 }

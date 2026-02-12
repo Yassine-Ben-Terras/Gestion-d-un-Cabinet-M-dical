@@ -25,7 +25,8 @@ public class ConsultationController {
 
         @GetMapping ("/{id}")
         public Consultation getById(@PathVariable long id) {
-            return consultationService.getById(id);
+
+        return consultationService.getById(id);
         }
 
         @PostMapping
