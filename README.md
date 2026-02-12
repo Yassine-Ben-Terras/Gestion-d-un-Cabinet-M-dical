@@ -7,7 +7,7 @@
 - Découpler totalement les services (code et données)
 - Supprimer tout module de persistance partagé
 - Introduire un **API Gateway** pour l’exposition des APIs
-- Mettre en œuvre la communication **REST inter-services**
+- Mettre en œuvre la communication **REST  inter-services**
 
 ---
 
