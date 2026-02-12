@@ -26,6 +26,10 @@ public class GatewayRoutesConfig {
                         .filters(f -> f.rewritePath("/api/rendezvous(?<segment>/?.*)",
                                 "/internal/api/v1/rendezvous${segment}"))
                         .uri("http://localhost:8084"))
+                .route("consultations", r -> r.path("/api/consultations/**")
+                        .filters(f -> f.rewritePath("/api/consultations(?<segment>/?.*)",
+                                "/internal/api/v1/consultations${segment}"))
+                        .uri("http://localhost:8085"))
 
                 .build();
     }

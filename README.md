@@ -1,71 +1,40 @@
-# Gestion d’un Cabinet Médical  
-## Projet pédagogique évolutif – Architectures distribuées
+#  Architecture Microservices (REST)
+## Gestion d’un Cabinet Médical
 
-Cours assuré par : **Jaouad OUHSSAINE**  
-Contact : jaouad.ouhs@gmail.com | jaouad_ouhssaine@um5.ac.ma
+## Objectifs
 
----
-
-Ce dépôt GitHub contient un **projet pédagogique évolutif** visant à illustrer **l’évolution progressive des architectures logicielles** dans le cadre du module :
-
-**Systèmes Distribués Basés sur les Microservices**  
-Master IPS – Faculté des Sciences de Rabat
-
-Le projet suit une démarche **pas à pas**, en partant d’une **application monolithique** jusqu’à une architecture **orientée événements** et enrichie par des **agents d’intelligence artificielle**.
+- Mettre en place une architecture **microservices**
+- Découpler totalement les services (code et données)
+- Supprimer tout module de persistance partagé
+- Introduire un **API Gateway** pour l’exposition des APIs
+- Mettre en œuvre la communication **REST inter-services**
 
 ---
 
-## Objectifs pédagogiques
+## Architecture globale
 
-- Comprendre l’évolution des architectures :
-  - Monolithe
-  - SOA (Service-Oriented Architecture)
-  - Microservices
-  - Architecture orientée événements (Event-Driven)
-  - Intégration d’agents IA
-- Appliquer concrètement :
-  - Spring Boot
-  - REST
-  - Apache Camel (ESB)
-  - Kafka
-- Concevoir un système :
-  - modulaire
-  - maintenable
-  - extensible
-  - scalable
+L’architecture est basée sur :
+- Des **microservices métiers autonomes** (Patient, Médecin, Rendez-vous, Consultation)
+- Un **service composite** pour l’agrégation des données (Dossier Patient)
+- Un **API Gateway** servant de point d’entrée unique pour les clients externes
+- Une **base de données par microservice**
+
+Les clients n’accèdent jamais directement aux microservices, toutes les requêtes passent par le Gateway.
 
 ---
 
-## Vision fonctionnelle globale
-
-L’application **Gestion d’un Cabinet Médical** couvre progressivement les fonctionnalités suivantes :
-
-- Gestion des patients
-- Gestion des médecins
-- Gestion des rendez-vous
-- Gestion des consultations
-- Facturation
-- Notifications
-- Intelligence artificielle (priorisation, recommandation, génération de texte)
-
-Ces fonctionnalités sont **introduites progressivement**, selon l’architecture étudiée à chaque TP.
-
----
-
-## Structure du repository
+## Structure du projet
 
 ```text
-gestionCabinetMedical/
+cabinetMedicalTp3MS/
 │
-├── cabinetMedicalTp1/        # TP1 – Application monolithique
+├── api-gateway                  # API Gateway (point d’entrée externe)
 │
-├── cabinetMedicalTp2SOA/     # TP2 – Architecture SOA avec ESB
+├── patient-service              # Microservice Patient (API + DB)
+├── medecin-service              # Microservice Médecin (API + DB)
+├── rendezvous-service           # Microservice Rendez-vous (API + DB)
+├── consultation-service         # Microservice Consultation (API + DB)
 │
-├── cabinetMedicalTp3MS/      # À venir – Microservices
+├── dossier-service              # Service composite (agrégation REST)
 │
-├── cabinetMedicalTp4EDA/     # À venir – Architecture orientée événements
-│
-├── cabinetMedicalTp5IA/      # À venir – Agents IA
-│
-└── README.md                 # Documentation globale du projet
-
+└── pom.xml                      # Projet parent (packaging pom)

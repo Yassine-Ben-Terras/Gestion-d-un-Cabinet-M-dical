@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="consultation-service" />
+        <module name="dossier-service" />
+        <module name="patient-service" />
+        <module name="medecin-service" />
+        <module name="rendezvous-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway (1)" target="21" />
+      <module name="cabinet-esb" target="21" />
+      <module name="cabinet-repo" target="21" />
+      <module name="cabinetMedicalTp1" target="21" />
+      <module name="cabinetMedicalTp2SOA" target="1.5" />
+      <module name="cabinetMedicalTp3MS-discovery" target="1.5" />
+      <module name="consultation-service (1)" target="21" />
+      <module name="consultations-service-api" target="21" />
+      <module name="dossier-service (1)" target="21" />
+      <module name="medecin-service (1)" target="21" />
+      <module name="medecin-service-api" target="21" />
+      <module name="patient-service (1)" target="21" />
+      <module name="patient-service-api" target="21" />
+      <module name="rendezvous-service (1)" target="21" />
+      <module name="rendezvous-service-api" target="21" />
+      <module name="service-discovery" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-gateway (1)" options="-parameters" />
+      <module name="cabinet-esb" options="-parameters" />
+      <module name="cabinet-repo" options="-parameters" />
+      <module name="cabinetMedicalTp1" options="-parameters" />
+      <module name="consultation-service" options="-parameters" />
+      <module name="consultation-service (1)" options="-parameters" />
+      <module name="consultations-service-api" options="-parameters" />
+      <module name="dossier-service" options="-parameters" />
+      <module name="dossier-service (1)" options="-parameters" />
+      <module name="medecin-service" options="-parameters" />
+      <module name="medecin-service (1)" options="-parameters" />
+      <module name="medecin-service-api" options="-parameters" />
+      <module name="patient-service" options="-parameters" />
+      <module name="patient-service (1)" options="-parameters" />
+      <module name="patient-service-api" options="-parameters" />
+      <module name="rendezvous-service" options="-parameters" />
+      <module name="rendezvous-service (1)" options="-parameters" />
+      <module name="rendezvous-service-api" options="-parameters" />
+      <module name="service-discovery" options="-parameters" />
+    </option>
+  </component>
+</project>

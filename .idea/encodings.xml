@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/cabinet-esb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/cabinet-repo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/consultations-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/medecin-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/patient-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/rendezvous-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp2SOA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/consultation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/dossier-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/medecin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/patient-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/rendezvous-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/service-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS-discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/consultation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/dossier-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/medecin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/patient-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/rendezvous-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cabinetMedicalTp3MS/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
